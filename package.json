@@ -1,0 +1,50 @@
+{
+  "name": "dngw-interface",
+  "version": "1.0.0",
+  "description": "DarkNET Gateway Web Interface",
+  "main": "dngw.js",
+  "license": "GPL-3.0",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode production --open",
+    "clean": "rm -rf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaiipantsu/dngw-interface.git"
+  },
+  "keywords": [
+    "npm",
+    "gateway",
+    "dngw"
+  ],
+  "author": "David Bjørnsten-Lindhard <kawaiipantsu@officethugs.dk>",
+  "bugs": {
+    "url": "https://github.com/kawaiipantsu/dngw-interface/issues"
+  },
+  "homepage": "https://github.com/kawaiipantsu/dngw-interface#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "img-loader": "^2.0.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
